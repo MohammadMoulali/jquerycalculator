@@ -37,28 +37,28 @@ var a,b;
 function add()
 {
   a=parseInt(prompt("enter a value:"));
-  b=parseInt(prompt("enter a value:"));
+  b=parseInt(prompt("enter another value:"));
   var c=a+b;
   document.write("the addition result is  "+c);
 }
 function sub()
 {
   a=parseInt(prompt("enter a value:"));
-  b=parseInt(prompt("enter a value:"));
+  b=parseInt(prompt("enter another value:"));
   var c=a-b;
   document.write("the substraction result is  "+c);
 }
 function mul()
 {
   a=parseInt(prompt("enter a value:"));
-  b=parseInt(prompt("enter a value:"));
+  b=parseInt(prompt("enter another value:"));
   var c=a*b;
   document.write("the multiplication  result is  "+c);
 }
 function div()
 {
   a=parseInt(prompt("enter a value:"));
-  b=parseInt(prompt("enter a value:"));
+  b=parseInt(prompt("enter another value:"));
   var c=a/b;
   document.write("the division result is  "+c);
 }
